@@ -1,2 +1,11 @@
-# 天池城市计算挑战赛 21/2300
-https://tianchi.aliyun.com/competition/entrance/231708/introduction?spm=5176.12281949.1003.1.493e4c2aHH5UP7
+# 天池城市计算挑战赛 23/2300 B榜
+## 特征提取
+# progress_2系列,时刻附近流量统计
+# progress_3系列,站台/刷卡类型等特征
+# progress_4系列,周期及非周期用户特征
+# progress_5系列,出站分布特征,没有用
+# progress_6系列,天气
+# 模型预测
+## lgb_1_进站.ipynb
+### 思路
+用周六预测周日成为model1,上周日预测下周日成为model2,最后等权重融合.
